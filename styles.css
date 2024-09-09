@@ -1,0 +1,147 @@
+body {
+    font-family: "Georgia", sans-serif;
+    margin: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #f8f8f8; /* Color de fondo */
+    padding: 10px 20px; /* Espaciado */
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-between; /* Espacio entre elementos */
+}
+
+.nav {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+}
+
+.menu {
+    margin-right: 20px; /* Espacio entre el menú y la búsqueda */
+}
+
+.search {
+    margin-left: 20px; /* Espacio entre el menú y la búsqueda */
+}
+
+.logo-container {
+    flex-grow: 1; /* Permitir que el contenedor crezca */
+    text-align: center; /* Centrar el contenido dentro del contenedor */
+}
+
+.logo {
+    max-width: 100%; /* Asegurarse de que la imagen no se desborde */
+    height: auto; /* Mantener la proporción */
+}
+
+.buttons {
+    display: flex; /* Contenedor para los botones */
+}
+
+.subscribe {
+    background-color: #f39c12; /* Color de fondo amarillo */
+    color: black; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    margin-left: 10px; /* Espacio entre botones */
+}
+
+.subscribe:hover {
+    background-color: #e67e22; /* Color al pasar el mouse */
+}
+
+.login {
+    background-color: transparent; /* Sin fondo */
+    color: black; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    padding: 0; /* Sin espaciado adicional */
+    margin-left: 10px; /* Espacio entre botones */
+}
+
+.info-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.info-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px; /* Espacio entre botones */
+    cursor: pointer;
+}
+
+.info-button.nacional {
+    background-color: transparent; /* Sin fondo */
+    color: black; /* Color del texto */
+    font-weight: bold; /* Negrita */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    padding: 0; /* Sin espaciado adicional */
+    margin-right: 10px; /* Espacio entre botones */
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+.audio {
+    background-color: #db3434; /* Color azul */
+}
+
+.hermosilla {
+    background-color: #2c3e50; /* Color gris oscuro */
+}
+
+.more {
+    background-color: #bdc3c7; /* Color gris claro */
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.content-table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsar bordes */
+}
+
+.text-cell {
+    padding: 20px; /* Espaciado interno */
+    vertical-align: top; /* Alinear el texto en la parte superior */
+    max-width: 700px; /* Limitar el ancho del texto */
+}
+
+.image-cell {
+    width: 700px; /* Ancho fijo para la imagen */
+    vertical-align: top; /* Alinear la imagen en la parte superior */
+    text-align: right; /* Alinear la imagen a la derecha */
+    margin-top: -40px; /* Ajustar para alinear con el título */
+}
+
+.hermosilla-img {
+    width: 100%; /* La imagen ocupa el 100% del contenedor */
+    height: auto; /* Mantener la proporción */
+}
+
+.image-caption {
+    font-size: 14px;
+    color: #777;
+    text-align: center; /* Centrar el pie de foto */
+    margin-top: 5px; /* Espacio entre la imagen y el pie de foto */
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
